@@ -10,11 +10,6 @@ TODO: (want to do):
     2. simple identify upperbodies (by position):
         2.1 save time of upperbody detected
         2.2 save time of face inside of upperbody detected
-
-BUILD:
-    (i will repair CMakeLists soon)
-    for now:
-        g++ -o sample main.cpp `pkg-config --cflags --libs opencv`
  */
 
 #include "opencv2/objdetect/objdetect.hpp"
