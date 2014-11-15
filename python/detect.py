@@ -6,8 +6,8 @@ import cv2
 
 # start capture
 video_capture = cv2.VideoCapture(0)
-cascPath = 'haar_files/haarcascade_frontalface_default.xml'
-secondPath = 'haar_files/HS.xml'
+cascPath = '../haar_files/haarcascade_frontalface_default.xml'
+secondPath = '../haar_files/HS.xml'
 
 faceCascade = cv2.CascadeClassifier(cascPath)
 secondCascade = cv2.CascadeClassifier(secondPath)
